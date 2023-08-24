@@ -1,0 +1,8 @@
+prefix=/home/uav/workspace/px4_catkin_ws/devel/.private/px4_offboard
+
+Name: px4_offboard
+Description: Description of px4_offboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

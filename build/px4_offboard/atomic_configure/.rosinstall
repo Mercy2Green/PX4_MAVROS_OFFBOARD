@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/uav/workspace/px4_catkin_ws/devel/.private/px4_offboard/setup.sh
