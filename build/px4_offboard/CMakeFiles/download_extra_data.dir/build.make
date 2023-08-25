@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uav/workspace/px4_catkin_ws/src/px4_offboard
+CMAKE_SOURCE_DIR = /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uav/workspace/px4_catkin_ws/build/px4_offboard
+CMAKE_BINARY_DIR = /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/uav/workspace/px4_catkin_ws/build/px4_offboard && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav/workspace/px4_catkin_ws/src/px4_offboard /home/uav/workspace/px4_catkin_ws/src/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

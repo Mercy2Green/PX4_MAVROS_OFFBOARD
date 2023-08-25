@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/uav/workspace/px4_catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/uav/workspace/PX4_MAVROS_OFFBOARD/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/uav/workspace/px4_catkin_ws/build/px4_offboard/gtest/googlemock/cmake_install.cmake")
+  include("/home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

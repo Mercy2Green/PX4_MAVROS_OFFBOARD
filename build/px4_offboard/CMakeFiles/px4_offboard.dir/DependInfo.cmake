@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/uav/workspace/px4_catkin_ws/src/px4_offboard/src/offboard_control.cpp" "/home/uav/workspace/px4_catkin_ws/build/px4_offboard/CMakeFiles/px4_offboard.dir/src/offboard_control.cpp.o"
+  "/home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard/src/offboard_control.cpp" "/home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard/CMakeFiles/px4_offboard.dir/src/offboard_control.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

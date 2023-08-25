@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uav/workspace/px4_catkin_ws/src/px4_offboard
+CMAKE_SOURCE_DIR = /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uav/workspace/px4_catkin_ws/build/px4_offboard
+CMAKE_BINARY_DIR = /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/uav/workspace/px4_catkin_ws/build/px4_offboard
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/uav/workspace/px4_catkin_ws/build/px4_offboard/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/uav/workspace/px4_catkin_ws/build/px4_offboard && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav/workspace/px4_catkin_ws/src/px4_offboard /home/uav/workspace/px4_catkin_ws/src/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

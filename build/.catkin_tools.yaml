@@ -1,6 +1,6 @@
-devel_space: /home/uav/workspace/px4_catkin_ws/devel
+devel_space: /home/uav/workspace/PX4_MAVROS_OFFBOARD/devel
 install: false
-install_space: /home/uav/workspace/px4_catkin_ws/install
+install_space: /home/uav/workspace/PX4_MAVROS_OFFBOARD/install
 profile: default
-source_space: /home/uav/workspace/px4_catkin_ws/src
-workspace: /home/uav/workspace/px4_catkin_ws
+source_space: /home/uav/workspace/PX4_MAVROS_OFFBOARD/src
+workspace: /home/uav/workspace/PX4_MAVROS_OFFBOARD

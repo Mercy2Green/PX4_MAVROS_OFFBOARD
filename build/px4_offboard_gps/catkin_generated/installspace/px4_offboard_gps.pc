@@ -1,0 +1,8 @@
+prefix=/home/uav/workspace/PX4_MAVROS_OFFBOARD/install
+
+Name: px4_offboard_gps
+Description: Description of px4_offboard_gps
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -67,14 +67,14 @@ set(px4_offboard_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(px4_offboard_SOURCE_PREFIX /home/uav/workspace/px4_catkin_ws/src/px4_offboard)
-  set(px4_offboard_DEVEL_PREFIX /home/uav/workspace/px4_catkin_ws/devel/.private/px4_offboard)
+  set(px4_offboard_SOURCE_PREFIX /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard)
+  set(px4_offboard_DEVEL_PREFIX /home/uav/workspace/PX4_MAVROS_OFFBOARD/devel)
   set(px4_offboard_INSTALL_PREFIX "")
   set(px4_offboard_PREFIX ${px4_offboard_DEVEL_PREFIX})
 else()
   set(px4_offboard_SOURCE_PREFIX "")
   set(px4_offboard_DEVEL_PREFIX "")
-  set(px4_offboard_INSTALL_PREFIX /home/uav/workspace/px4_catkin_ws/install)
+  set(px4_offboard_INSTALL_PREFIX /home/uav/workspace/PX4_MAVROS_OFFBOARD/install)
   set(px4_offboard_PREFIX ${px4_offboard_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/uav/workspace/px4_catkin_ws/install/lib;/home/uav/workspace/px4_catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/uav/workspace/PX4_MAVROS_OFFBOARD/install/lib;/home/uav/workspace/PX4_MAVROS_OFFBOARD/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

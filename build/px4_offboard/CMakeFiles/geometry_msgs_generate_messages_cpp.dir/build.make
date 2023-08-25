@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uav/workspace/px4_catkin_ws/src/px4_offboard
+CMAKE_SOURCE_DIR = /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uav/workspace/px4_catkin_ws/build/px4_offboard
+CMAKE_BINARY_DIR = /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/uav/workspace/px4_catkin_ws/build/px4_offboard && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav/workspace/px4_catkin_ws/src/px4_offboard /home/uav/workspace/px4_catkin_ws/src/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard /home/uav/workspace/px4_catkin_ws/build/px4_offboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/src/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard /home/uav/workspace/PX4_MAVROS_OFFBOARD/build/px4_offboard/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 
