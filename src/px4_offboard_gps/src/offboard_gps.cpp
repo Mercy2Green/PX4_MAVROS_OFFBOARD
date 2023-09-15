@@ -39,9 +39,9 @@ int main(int argc, char* argv[])
       }
 
       geographic_msgs::GeoPoseStamped global_pose;
-      global_pose.pose.position.altitude = 537; // using rqt to see where the init position is.
-      global_pose.pose.position.latitude = 48;
-      global_pose.pose.position.longitude = 9;
+      global_pose.pose.position.altitude = 536; // using rqt to see where the init position is.
+      global_pose.pose.position.latitude = 47.39776;
+      global_pose.pose.position.longitude = 8.54561;
 
       for(int i=100; ros::ok() && i>0; --i){
 

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Our node to control the drone -->
+    <node pkg="px4_yolo_position_local" type="yolo_position_local.py" name="px4_offboard_yolo" required="true" output="screen" />
+</launch>

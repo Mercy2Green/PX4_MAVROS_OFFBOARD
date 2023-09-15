@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/uav/workspace/PX4_MAVROS_OFFBOARD/install/setup.sh
